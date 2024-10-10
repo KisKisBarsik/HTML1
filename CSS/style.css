@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+body{
+    font-family: SUSE, Courier, monospace;
+    cursor: wait;
+}
+
+.tr1 td{
+    background-color: yellowgreen;
+    border: 4px solid yellowgreen;
+    padding: 50px;
+}
+
+tr td {
+    background-color: rgb(247, 247, 247);
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.price, .amount, .total {
+    text-align: center;
+}
+
+.tr2:hover {
+    background-color: black;
+    border-left: 4px solid black;
+}
+
+.tr2 {
+    cursor: url(cursor/cursor.png), default;
+}
+
+p {
+    color: rgb(174, 171, 171);
+}
+
